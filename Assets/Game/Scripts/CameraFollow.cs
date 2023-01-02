@@ -16,7 +16,7 @@ public class CameraFollow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         //prolly need 2 scenarios for this; Lerp = smooth
         transform.position = Vector3.Lerp(transform.position, new Vector3(target.position.x,0,target.position.z) + offset, Time.deltaTime*3);
