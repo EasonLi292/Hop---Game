@@ -20,11 +20,5 @@ public class DeathMenu : MonoBehaviour
         //updates High Score to new score if it's > than previous high score
     }*/
 
-    public void LoadMenu() {
-        SceneManager.LoadScene("Menu");
-    }
-
-    public void Restart() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    
 }

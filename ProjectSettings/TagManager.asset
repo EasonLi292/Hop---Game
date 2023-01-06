@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Spawn Trigger
   - Bonus
+  - Ground
   layers:
   - Default
   - TransparentFX
